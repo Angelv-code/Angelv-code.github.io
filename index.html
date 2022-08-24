@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>TutorExpert</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+    </head>
+    <body>
+         <div class = "container">
+             <div class = "navbar">
+
+                 
+                    <h2 class = "logo">TutorExpert</h2>
+                 
+
+                 <nav>
+                     <ul id = "menuList">
+                         <li><a href = "index.html">HOME</a></li>
+                         <li><a href = "subject.html">SUBJECTS</a></li>
+                         <li><a href = "#">CONTACT</a></li>
+                         <li><a href = "sign-in.html">SIGN IN</a></li>
+                    </ul>
+                </nav>
+
+                <img src = "images/menu.webp" class = "menu-icon" onclick="togglemenu()">
+
+             </div>
+<div class="row">
+
+    <div class = "col-1">
+        <h2>We change the way we learn</h2>
+        <h3>Help us grow our community to make learning easier.</h3>
+        <p>Start Today</p>
+        <button type="button"><a href = "register.html">Join Now</a><img src="images/arrow.png">
+        </button>
+    </div>
+    <div class = "col-2">
+<img src = "images/student.webp" class = "students">
+</div>
+
+         </div>
+         </div>
+         
+         <script>
+             var menuList = document.getElementById("menuList");
+
+             menuList.style.maxHeight = "0px";
+             
+             function togglemenu(){
+                 if(menuList.style.maxHeight == "0px"){
+                    
+                        menuList.style.maxHeight = "130px";
+                    }
+                    else
+                    {
+                        menuList.style.maxHeight = "0px";
+                    }
+                 }
+                
+         </script>
+
+    </body>
+</html>

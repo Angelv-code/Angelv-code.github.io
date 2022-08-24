@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>TutorExpert</title>
+        <link rel = "stylesheet" href = "subject-style.css">
+        <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+         <div class = "container">
+             <div class = "navbar">
+
+                 
+                    <h2 class = "logo">TutorExpert</h2>
+                 
+
+                 <nav>
+
+                     <ul id = "menuList">
+                         <li><a href = "index.html">HOME</a></li>
+                         <li><a href = "subject.html">SUBJECTS</a></li>
+                         <li><a href = "#">CONTACT</a></li>
+                         <li><a href = "sign-in.html">SIGN IN</a></li>
+                    </ul>
+                </nav>
+
+                <img src = "images/menu.webp" class = "menu-icon" onclick="togglemenu()">
+
+             </div>
+
+             <div class="srch">
+
+             <center>
+            <h2>We have over 100 subjects with tutors avaliable!</h2>
+            <h3>Start Browsing subjects and search courses to help us answer your questions</h3>
+            </center>
+
+            <center>
+            <div class="title">
+            <h1>Search Subjects</h1>
+            </div>
+        
+            <hr class="line">
+            </center>
+
+            </div>
+            
+
+             </div>
+             
+
+  
+         <script>
+             var menuList = document.getElementById("menuList");
+
+             menuList.style.maxHeight = "0px";
+             
+             function togglemenu(){
+                 if(menuList.style.maxHeight == "0px"){
+                    
+                        menuList.style.maxHeight = "130px";
+                    }
+                    else
+                    {
+                        menuList.style.maxHeight = "0px";
+                    }
+                 }
+                
+         </script>
+
+    </body>
+</html>
